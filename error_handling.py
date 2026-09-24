@@ -17,6 +17,7 @@ def get_valid_age():
                 print("That seems unlikely. Please enter a realistic age.")
                 continue
             return age
+
         except ValueError:
             print(f"Sorry,'{user_input}' is not a valid age. Please enter a number.")
 
