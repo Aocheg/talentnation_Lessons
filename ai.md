@@ -51,7 +51,7 @@ How does the bank know? Fraud detection systems use AI to learn patterns of norm
 
 - Fraud detection is a clear example of AI because it requires learning from data, recognizing patterns, and making decisions under uncertainty.
 
-## GENRATIVE AI
+## GENRATIVE AI.
 - Generative AI is a more recent and highly visible form of AI. It creates new content: text, images, audio, code, and more.
 
 - You may have used ChatGPT, Google Gemini, or Meta AI to write an email, generate a business idea, or explain a concept. Maybe you have seen apps that create images from text descriptions, or tools that compose music.
@@ -64,7 +64,7 @@ How does the bank know? Fraud detection systems use AI to learn patterns of norm
 
 - Generative AI is often called creative, but it is really pattern-based generation. It does not understand the content the way a human does. It predicts what is likely to come next based on learned patterns. This is why it can sometimes produce fluent but incorrect information. Still, its ability to generate new text, images, and ideas is associated with intelligence.
 
-## Why each example qualifies as AI
+## Why each example qualifies as AI.
 In each case, the system:
 
 - Learns from data rather than following only fixed rules.
