@@ -72,4 +72,4 @@ In each case, the system:
 - Makes decisions under uncertainty.
 - Improves as it receives more data.
 
---**That is the heart of AI**
+--**That is the heart of AI**.
