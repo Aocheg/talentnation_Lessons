@@ -55,3 +55,21 @@ def add_tax(subtotal):
     return subtotal * 1.08
 final_total = add_tax(10.0)
 print(final_total)
+
+
+# Combining Parameters and Return Values
+
+def make_custom_drink(base_drink, milk_type, sugar_packets):
+    descripton = f"{base_drink} with {milk_type} milk"
+
+    if sugar_packets > 0:
+        descripton = descripton + f" and {sugar_packets} sugar packets"
+
+    return descripton
+
+# Generate distinct order strings
+order1 = make_custom_drink("Latte", "almond", 2)
+order2 = make_custom_drink("Cappuccino", "whole", 0)
+
+print(order1)
+print(order2)
