@@ -53,3 +53,11 @@ items = raw_order_list.split(",")
 menu_display = "\n".join(items)
 
 print(menu_display)
+
+
+sentence = "latte and espresso"
+words = sentence.split(" and ")
+print(words)
+
+rejoin = "-".join(words)
+print(rejoin)
