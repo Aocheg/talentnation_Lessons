@@ -24,3 +24,13 @@ print(abbreviation)
 
 name = "Gabriel"
 print(name[:3])
+
+# 3. String Formatting(Inserting Variables)
+
+order_name = "Godson"
+drink = "Latte"
+price = 4.50
+
+reciept = f"Order for {order_name}: {drink} N{price:.2f}"
+
+print(reciept)
