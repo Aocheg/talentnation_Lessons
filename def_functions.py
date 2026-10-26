@@ -1,4 +1,5 @@
 # DEFINING FUNCTIONS
+# 1.Defining function
 
 def brew_coffee():
     print("Grinding espresso beans")
@@ -11,7 +12,7 @@ def greet_brista():
 greet_brista()
 
 
-# Function with Parameters(Accepting input)
+#2.  Function with Parameters(Accepting input)
 # adding a placeholder variable into functions
 
 def print_cup_label(customer_name):
@@ -37,3 +38,20 @@ print_label("Joyce")
 def order_drink(drink, size):
     print("Dispensing "+size + " " + drink)
 order_drink("espresso", "large")
+
+# 3 Functions with Return Values (Producing Output)
+
+cups_ordered = 3
+price_per_cup = 4.50
+customer_receipt = ""
+
+def calculate_price(count, cost):
+    total = count * cost
+    return total
+customer_receipt = calculate_price(cups_ordered, price_per_cup)
+print(customer_receipt)
+
+def add_tax(subtotal):
+    return subtotal * 1.08
+final_total = add_tax(10.0)
+print(final_total)
