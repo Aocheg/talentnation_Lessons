@@ -23,3 +23,13 @@ total_revenue = sum(recent_orders)
 print("Smallest order:", smallest_order)
 print("Largest order:", largest_order)
 print("Total revenue:", total_revenue)
+
+
+# MODULES 
+# String Module
+
+import string
+
+print(string.ascii_lowercase)
+
+print(string.punctuation)
