@@ -11,3 +11,4 @@ while ingredients_checked < total_ingredients:
 
     else:
         print("All ingredients verified!")
+
