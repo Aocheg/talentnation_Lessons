@@ -102,3 +102,16 @@ def clean_text(text,lower=True):
     else:
         return clean_text.lower()
 print(help(clean_text))
+
+
+# ADDING ARBITRARY ARGUMENTS
+
+def concat(*args):
+    """Concatenates multiple string arguments with spaces between them."""
+
+    result = ""
+
+    for arg in args:
+        result += " " + arg
+    return result
+print(concat("Python", "is", "great!"))
