@@ -64,7 +64,7 @@ def clean_text(text,lower=True):
         return clean_text
     else:
         return clean_text.lower()
-print(clean_text(product))
+# print(clean_text(product))
 
 
 # CLACULATING A DISCOUNT
