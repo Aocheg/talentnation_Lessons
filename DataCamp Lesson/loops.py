@@ -33,3 +33,29 @@ import string
 print(string.ascii_lowercase)
 
 print(string.punctuation)
+
+
+# BUILDING A VALID PASSOWRD
+
+# def validate_passord(password):
+#     if validate_passord(password) >= 8:
+#         for char in password:
+#             if char in string.punctuation:
+#                 return True
+#     return False
+# is_valid = validate_passord(user_passorwd)
+
+# print("Is the password Valid?", is_valid)
+
+
+# ADDING A KEYWAORD ARGUMENNT
+
+product = 'Wireless Mouse'
+
+def clean_text(text,lower=True):
+    clean_text = text.replace(' ', '_')
+    if lower == False:
+        return clean_text
+    else:
+        return clean_text.lower()
+print(clean_text(product))
