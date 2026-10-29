@@ -66,6 +66,9 @@ print(clean_text(product))
 original_price = 899.99
 
 def calculate_discount(price,discount_percent=15,round_result=True):
+    # SINGLE-LINE DOCSTRINGS 
+    """Calculate the discount price of a product"""
+
     discount_price = price - (price*(discount_percent/100))
 
     if round_result == True:
@@ -75,3 +78,6 @@ def calculate_discount(price,discount_percent=15,round_result=True):
     
 final_price = calculate_discount(price=original_price,discount_percent=25,round_result=False)
 print(final_price)
+print(calculate_discount.__doc__)
+
+
