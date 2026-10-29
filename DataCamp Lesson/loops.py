@@ -59,3 +59,19 @@ def clean_text(text,lower=True):
     else:
         return clean_text.lower()
 print(clean_text(product))
+
+
+# CLACULATING A DISCOUNT
+
+original_price = 899.99
+
+def calculate_discount(price,discount_percent=15,round_result=True):
+    discount_price = price - (price*(discount_percent/100))
+
+    if round_result == True:
+        return round(discount_price, 2)
+    else:
+        return discount_price
+    
+final_price = calculate_discount(price=original_price,discount_percent=25,round_result=False)
+print(final_price)
