@@ -90,10 +90,15 @@ def clean_text(text,lower=True):
         Args:
             text (str): A string to be cleaned.
             lower (bool): Whether to convert the text to lowercase.
+        
+        return:
+            text (str): Cleaned string.
     """
+
 
     clean_text = text.replace(' ', '_')
     if lower == False:
         return clean_text
     else:
         return clean_text.lower()
+print(help(clean_text))
