@@ -53,6 +53,12 @@ print(string.punctuation)
 product = 'Wireless Mouse'
 
 def clean_text(text,lower=True):
+
+    # MULTI-LINE DOCSTRINGS
+    """"
+    Clean text by swapping spcaces to underscores and converting to lowercase.
+    """
+
     clean_text = text.replace(' ', '_')
     if lower == False:
         return clean_text
