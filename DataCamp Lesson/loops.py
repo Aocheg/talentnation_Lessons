@@ -54,17 +54,12 @@ product = 'Wireless Mouse'
 
 def clean_text(text,lower=True):
 
-    # MULTI-LINE DOCSTRINGS
-    """"
-    Clean text by swapping spcaces to underscores and converting to lowercase.
-    """
-
     clean_text = text.replace(' ', '_')
     if lower == False:
         return clean_text
     else:
         return clean_text.lower()
-# print(clean_text(product))
+print(clean_text(product))
 
 
 # CLACULATING A DISCOUNT
@@ -87,3 +82,18 @@ print(final_price)
 print(calculate_discount.__doc__)
 
 
+def clean_text(text,lower=True):
+
+    # MULTI-LINE DOCSTRINGS
+    """"
+    Clean text by swapping spcaces to underscores and converting to lowercase.
+        Args:
+            text (str): A string to be cleaned.
+            lower (bool): Whether to convert the text to lowercase.
+    """
+
+    clean_text = text.replace(' ', '_')
+    if lower == False:
+        return clean_text
+    else:
+        return clean_text.lower()
