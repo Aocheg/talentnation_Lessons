@@ -91,7 +91,7 @@ def clean_text(text,lower=True):
             text (str): A string to be cleaned.
             lower (bool): Whether to convert the text to lowercase.
         
-        return:
+        Returns:
             text (str): Cleaned string.
     """
 
