@@ -1,7 +1,7 @@
 # STRINGS MANIPULATIONS
 # 1. Strings Methods (Tools)
 
-order = "    lAtTe    "
+order = "  lAtTe   "
 
 
 cleaned = order.strip()
