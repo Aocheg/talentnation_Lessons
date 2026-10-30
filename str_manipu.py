@@ -8,7 +8,7 @@ cleaned = order.strip()
 
 proper = order.strip().title()
 
-order_name = "     espresso     "
+order_name = "   espresso   "
 
 
 print(cleaned)
