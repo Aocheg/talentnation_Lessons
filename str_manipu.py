@@ -15,7 +15,7 @@ print(cleaned)
 print(proper)
 print(order_name.strip().upper())
 
-# 2. String Slicing(Extract part of the Text)
+# 2. String Slicing(Extract part of the Text.)
 
 order_1 = "Latte"
 
@@ -25,7 +25,7 @@ print(abbreviation)
 name = "Gabriel"
 print(name[:3])
 
-# 3. String Formatting(Inserting Variables)
+# 3. String Formatting(Inserting Variables.)
 
 order_name = "Godson"
 drink = "Latte"
