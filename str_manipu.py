@@ -1,4 +1,4 @@
-# STRINGS MANIPULATIONS
+# STRINGS MANIPULATIONS.
 # 1. Strings Methods (Tools)
 
 order = "  lAtTe   "
@@ -15,7 +15,7 @@ print(cleaned)
 print(proper)
 print(order_name.strip().upper())
 
-# 2. String Slicing(Extract part of the Text)
+# 2. String Slicing(Extract part of the Text).
 
 order_1 = "Latte"
 
