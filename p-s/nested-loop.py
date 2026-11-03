@@ -32,3 +32,14 @@ activities = ["large stdies", "collaboration", "solo drills"]
 for classroom in classrooms:
     for activity in activities:
         print(f"classroom {classroom}, - activity {activities}")
+
+
+departments = ["Sales", "Finance"]
+employees = {
+    "Sales": ["John", "Mary", "Peter"],
+    "Finance": ["David", "Sarah"]
+}
+
+for department in departments:
+    for employee in employees[department]:
+        print(department, employee)
