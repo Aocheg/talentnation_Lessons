@@ -43,3 +43,23 @@ employees = {
 for department in departments:
     for employee in employees[department]:
         print(department, employee)
+
+
+# Nested loop with an one empty list within a dictionary
+
+departments = ["Sales", "Finance", "IT"]
+employees = {
+    "Sales": ["John", "Mary"],
+    "Finance": [],
+    "IT": ["David"]
+}
+
+for department in departments:
+    for employee in employees[department]:
+        print(department, employee)
+    
+"""From the above so far i have been able to learn the following:
+1. Loop execution
+2. iteration counts
+3. Nested loops with dictionaries
+4. Handling empty collections"""
