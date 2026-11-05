@@ -43,3 +43,13 @@ print(prices)
 """Remember this distinction:
 - sorted() sorts and returns a new list.
 - .sort() sorts the original list and returns None."""
+
+
+numbers = [5, 2, 8, 1]
+numbers.sort(reverse=True)
+print(numbers)
+
+"""What I have learned
+- .sort() modifies the original list.
+- reverse=True changes the sorting direction to descending.
+- .sort() still returns None; reverse=True does not change that."""
