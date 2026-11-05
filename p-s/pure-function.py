@@ -68,3 +68,48 @@ print(calculate_remaining_books(20,5))
 # - It doesn't depend on global variables.
 # - It doesn't modify external data.
 # - The same inputs always produce the same output.
+#
+
+# understanding side effect
+
+books = ["python", "Java", "Go"]
+
+def add_book(book):
+    books.append(book)
+    return books
+print(add_book(books))
+# The above function is a inpure function because it has an external
+# variable modfying the orginal output.
+
+def add_book(books, book):
+    new_books = books + [book]
+    return new_books
+
+
+# The above is a pure function because:
+
+# It receives books and book as arguments.
+# It doesn't depend on a global variable.
+# books + [book] creates a new list rather than modifying the original list.
+# It returns the new list without changing the caller's original list.
+
+"""Important: Passing an external object as an argument doesn't automatically 
+make a function pure. What matters is whether the function modifies that object 
+or causes other side effects."""
+
+# Edge Cases
+def calculate_discount(price, discount):
+    if discount >0:
+        return price - discount
+    return price
+print(calculate_discount(1000, 100))
+print(calculate_discount(1000, 0))
+print(calculate_discount(1000, -50))
+ """ the above function is a pure function with the following reasons
+ - It receives all the information it needs through its parameters.
+- It does not depend on external variables.
+- It does not modify external data.
+- The same inputs always produce the same outputs.
+
+Important lesson: A function does not become impure simply because it receives zero or a negative number. 
+Purity is about how the function behaves, not whether its input values are unusual."""
