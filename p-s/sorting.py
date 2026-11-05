@@ -27,3 +27,19 @@ temperature = [32, 18, 25, 40, 15]
 ascending_temps = sorted(temperature)
 print(ascending_temps)
 print(temperature)
+
+# The above code identified that: 
+"""sorted() arranges values in ascending order by default.
+Assigning the result to ascending_temps stores the new sorted list.
+The original temperatures list remains unchanged."""
+
+prices = [500, 200, 800, 100]
+
+result = prices.sort()
+
+print(result)
+print(prices)
+
+"""Remember this distinction:
+- sorted() sorts and returns a new list.
+- .sort() sorts the original list and returns None."""
