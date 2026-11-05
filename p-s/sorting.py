@@ -13,3 +13,17 @@ print(numbers)
 numbers = [8, 3, 10, 1]
 numbers.sort()
 print(numbers)
+
+
+scores = [45, 90, 20, 75]
+new_scores = sorted(scores, reverse=True)
+
+print(new_scores)
+print(scores)
+
+# Write one line of Python code that creates a new list called ascending_temps, containing the temperatures arranged from the lowest to the highest.
+temperature = [32, 18, 25, 40, 15]
+
+ascending_temps = sorted(temperature)
+print(ascending_temps)
+print(temperature)
