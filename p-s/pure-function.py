@@ -64,11 +64,11 @@ def calculate_remaining_books(total_books, borrowed_books):
 print(calculate_remaining_books(20,5))
 
 # The above function is a Pure function because:
-# - It receives all necessary information through its parameters.
-# - It doesn't depend on global variables.
-# - It doesn't modify external data.
-# - The same inputs always produce the same output.
-#
+"""- It receives all necessary information through its parameters.
+- It doesn't depend on global variables.
+- It doesn't modify external data.
+- The same inputs always produce the same output.
+"""
 
 # understanding side effect
 
@@ -88,10 +88,11 @@ def add_book(books, book):
 
 # The above is a pure function because:
 
-# It receives books and book as arguments.
-# It doesn't depend on a global variable.
-# books + [book] creates a new list rather than modifying the original list.
-# It returns the new list without changing the caller's original list.
+"""It receives books and book as arguments.
+It doesn't depend on a global variable.
+books + [book] creates a new list rather than modifying the original list.
+It returns the new list without changing the caller's original list.
+"""
 
 """Important: Passing an external object as an argument doesn't automatically 
 make a function pure. What matters is whether the function modifies that object 
