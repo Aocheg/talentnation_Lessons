@@ -105,7 +105,7 @@ def calculate_discount(price, discount):
 print(calculate_discount(1000, 100))
 print(calculate_discount(1000, 0))
 print(calculate_discount(1000, -50))
- """ the above function is a pure function with the following reasons
+""" the above function is a pure function with the following reasons
  - It receives all the information it needs through its parameters.
 - It does not depend on external variables.
 - It does not modify external data.
