@@ -34,3 +34,18 @@ book["category"] = "programming"
 print(book["copies"])
 print(book["category"])
 print(book.get("author"))
+
+
+# Drill and Deeper understanding
+
+patient = {
+    "name": "Daniel",
+    "age": 30,
+    "ward": "Medical"
+}
+
+patient["age"] = 35
+patient["blood_group"] = "O+"
+
+print(len(patient))
+print(patient.get("gender", "Unknown"))
