@@ -1,4 +1,4 @@
-# DICTIONARIES
+# DICTIONARIES.
 # A dictionary is a Python data structure that stores information in key-value pairs.
 
 """Unlike list that uses numerical indexes to access its value,
@@ -36,7 +36,7 @@ print(book["category"])
 print(book.get("author"))
 
 
-# Drill and Deeper understanding
+# Drill and Deeper understanding.
 
 patient = {
     "name": "Daniel",
