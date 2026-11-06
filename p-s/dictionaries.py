@@ -20,3 +20,17 @@ employee["Location"] = "Otukpo"
 print(employee["Salary"])
 print(employee.get("age", 25))
 print(employee["Location"])
+
+
+book = {
+    "title": "Python Basics",
+    "author": "John",
+    "copies": 10
+}
+
+book["copies"] = 15
+book["category"] = "programming"
+
+print(book["copies"])
+print(book["category"])
+print(book.get("author"))
