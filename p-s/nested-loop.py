@@ -67,4 +67,5 @@ for department in departments:
 """3 CORE PRINCIPLE ABOUT LOOPS
 1. The outer loop determines how many iterations occur.
 2. the inner loop completes its available iterations for each iteration.
-3. An empty innere collection means zero inner iterations, not termination of the outer loop."""
+3. An empty innere collection means zero inner iterations, 
+not termination of the outer loop."""
