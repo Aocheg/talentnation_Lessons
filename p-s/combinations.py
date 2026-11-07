@@ -13,10 +13,12 @@ pairs = combinations(musiscians, 2)
 print(list(pairs))
 
 
-"""NOTE: The principle of COmbination: The identity of the group maters, not the orderd in whih its members were selected."""
+"""NOTE: The principle of COmbination: The identity of the group maters, 
+not the orderd in whih its members were selected."""
 
 """itertools.combinations() generate selections without replacement. that means
-once an item has been selected in a particular combination, it cannot appear agin in that same combination."""
+once an item has been selected in a particular combination, it cannot appear 
+agin in that same combination."""
 
 filters = ["Warm", "Cool", "Vintage", "Natural"]
 
