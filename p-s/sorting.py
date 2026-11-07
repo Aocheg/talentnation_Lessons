@@ -1,5 +1,5 @@
 # SORTING
-# Sorting mean arranging items in a particular order.
+# Sorting mean arranging items in a particular order
 
 """python give us 2 ways to sort data
 1. sorted(): this create new sorted list without changing dthe original list."""
@@ -21,7 +21,8 @@ new_scores = sorted(scores, reverse=True)
 print(new_scores)
 print(scores)
 
-# Write one line of Python code that creates a new list called ascending_temps, containing the temperatures arranged from the lowest to the highest.
+# Write one line of Python code that creates a new list called ascending_temps, 
+# containing the temperatures arranged from the lowest to the highest.
 temperature = [32, 18, 25, 40, 15]
 
 ascending_temps = sorted(temperature)

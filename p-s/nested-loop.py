@@ -24,7 +24,7 @@ for department in departments:
 
 # INDEPENDENT DRILLS (Execution testing)
 # imagine a school has three classrooms and three activities.
-# How many times will the print execute
+# How many times will the print execute.
 
 classrooms = ["cluster 1", "cluster 2", "cluster 3"]
 activities = ["large stdies", "collaboration", "solo drills"]
