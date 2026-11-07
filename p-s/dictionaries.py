@@ -6,7 +6,8 @@ a Dictionary are accessed using their key"""
 
 # using .get()
 """when a grade is not available and you use "student["grade"], it will raises a keyError
-but when you use student.get["grade"], it returns None by default. you can also customize the get message"""
+but when you use student.get["grade"], it returns None by default.
+You can also customize the get message"""
 
 employee = {
     "name": "Sarah",
