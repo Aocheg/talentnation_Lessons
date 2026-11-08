@@ -39,7 +39,8 @@ def calculate_price(price):
     return price - discount
 print(calculate_price(1000))
 
-# """2. Pure Functions: This functions does not depend on any external variables to get its result, it receives all it need through its arguments 
+# """2. Pure Functions: This functions does not depend on any external variables 
+# to get its result, it receives all it need through its arguments 
 # and avoid external side effect."""
 
 def calculate_price(price, discount):
@@ -48,7 +49,8 @@ print(calculate_price(1000, 100))
 
 # independent drills on functions
 
-# Imagine you're managing a library. You want to calculate how many books remain after some books are borrowed.
+# Imagine you're managing a library. You want to calculate how many books 
+#remain after some books are borrowed.
 
 # Your task is to write a function called: calculate_remaining_books()
 
