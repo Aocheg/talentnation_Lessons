@@ -29,7 +29,8 @@ def add_to_balance(amount):
 # We must also consider whether it changes external state."""
 
 # 2 types of functions 
-# """1. Inpure Functions: this function usually depend of variable from ouside the function or outside its input  to give its required results.
+# """1. Inpure Functions: this function usually depend of variable from ouside the 
+# function or outside its input  to give its required results.
 # e.g declaring a global variable and using it inside a function"""
 
 discount = 100
