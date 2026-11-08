@@ -116,5 +116,6 @@ print(calculate_discount(1000, -50))
 - It does not modify external data.
 - The same inputs always produce the same outputs.
 
-Important lesson: A function does not become impure simply because it receives zero or a negative number. 
+Important lesson: A function does not become impure simply because it receives zero or 
+a negative number. 
 Purity is about how the function behaves, not whether its input values are unusual."""
