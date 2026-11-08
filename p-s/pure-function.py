@@ -25,7 +25,8 @@ def add_to_balance(amount):
 # - Reuse because they depend on their inputs.
 # - Maintain because their behaviour is easier to understand.
 
-# Important: A function returning a value does not automatically make it pure. We must also consider whether it changes external state."""
+# Important: A function returning a value does not automatically make it pure. 
+# We must also consider whether it changes external state."""
 
 # 2 types of functions 
 # """1. Inpure Functions: this function usually depend of variable from ouside the function or outside its input  to give its required results.
