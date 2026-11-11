@@ -48,7 +48,7 @@ print(string.punctuation)
 # print("Is the password Valid?", is_valid)
 
 
-# ADDING A KEYWAORD ARGUMENNT.
+# ADDING A KEYWAORD ARGUMENNT
 
 product = 'Wireless Mouse'
 
@@ -67,7 +67,7 @@ print(clean_text(product))
 original_price = 899.99
 
 def calculate_discount(price,discount_percent=15,round_result=True):
-    # SINGLE-LINE DOCSTRINGS. 
+    # SINGLE-LINE DOCSTRINGS 
     """Calculate the discount price of a product"""
 
     discount_price = price - (price*(discount_percent/100))
@@ -84,7 +84,7 @@ print(calculate_discount.__doc__)
 
 def clean_text(text,lower=True):
 
-    # MULTI-LINE DOCSTRINGS.
+    # MULTI-LINE DOCSTRINGS
     """"
     Clean text by swapping spcaces to underscores and converting to lowercase.
         Args:
