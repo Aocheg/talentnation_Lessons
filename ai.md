@@ -1,6 +1,6 @@
 # FOUUR CATEGORIES OF AI-SYSTEM
 
-## 1. RECOMMENDATION.
+## 1. RECOMMENDATION
 - A Recommendation system predicts what you might want to see or buy next. It does this by learning from data, suh as: 
     - What you have watched, liked, share or irgnored. 
     - what people with similar tastes have liked.
@@ -10,7 +10,7 @@
     - It involves patter recognition: it notice connection between users, content, and preferences.
     - It handles Variability and Incomplete Information: The system does not know what you want every moment. it makes an educated guess base on evidence.
     - It makes decision under uncertainty: from thousands of possible videos, it chooses the few most likely to be relevant.
-## 2. SEARCH ENGINES.
+## 2. SEARCH ENGINES
 - Search Engines handles retrieval tools. you type "best phone under 100k naira" and it returns links with the request typed. However behind the scenes, search engines use many AI techniques. 
 ## Search Engines Handles: 
     - Spelling errors and variations: If you type “restarant in Lekki” instead of “restaurant in Lekki,” the engine still knows what you mean.
@@ -26,7 +26,7 @@ For example, if someone types “plumber near me,” the engine must understand 
 
 Search engines are AI because they continuously learn and adapt to language and user needs.
 
-## FRAUS DETECTION.
+## FRAUS DETECTION
 - Banks and payment companies process millions of transactions every day. Some of those transactions are legitimate. Some are fraudulent. The challenge is telling the difference quickly and accurately.
 
 In Nigeria, with the growth of POS transactions, mobile transfers, and online payments, fraud detection is serious business. A customer may receive a text message from their bank saying a transaction was flagged. The bank may have blocked a suspicious transfer.
