@@ -1,4 +1,4 @@
-# SORTING
+# SORTING.
 # Sorting mean arranging items in a particular order
 
 """python give us 2 ways to sort data
