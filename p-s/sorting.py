@@ -9,7 +9,7 @@ result = sorted(numbers)
 print(result)
 print(numbers)
 
-"""2. .sorted(): this sorts the original list directly. it changes the existing list rather than creating a new one."""
+"""2. .sorted(): this sorts the original list directly. it changes the existing list rather than creating a new one"""
 numbers = [8, 3, 10, 1]
 numbers.sort()
 print(numbers)
