@@ -1,4 +1,4 @@
-"""COMBINATION
+"""COMBINATION.
 Combination means selecting items from a collection where the order of selection does not matter."""
 
 # Python does not have a special combination loop,

@@ -22,7 +22,7 @@ for department in departments:
         print(department, "-", task)
 
 
-# INDEPENDENT DRILLS (Execution testing)
+# INDEPENDENT DRILLS (Execution testing).
 # imagine a school has three classrooms and three activities.
 # How many times will the print execute.
 
