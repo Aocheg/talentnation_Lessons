@@ -1,4 +1,4 @@
-# DEFINING FUNCTIONS
+# DEFINING FUNCTIONS.
 # 1.Defining function
 
 def brew_coffee():
@@ -13,7 +13,7 @@ greet_brista()
 
 
 #2.  Function with Parameters(Accepting input)
-# adding a placeholder variable into functions
+# adding a placeholder variable into functions.
 
 def print_cup_label(customer_name):
     print("-----------------------")
@@ -39,7 +39,7 @@ def order_drink(drink, size):
     print("Dispensing "+size + " " + drink)
 order_drink("espresso", "large")
 
-# 3 Functions with Return Values (Producing Output)
+# 3 Functions with Return Values (Producing Output).
 
 cups_ordered = 3
 price_per_cup = 4.50
@@ -57,7 +57,7 @@ final_total = add_tax(10.0)
 print(final_total)
 
 
-# Combining Parameters and Return Values
+# Combining Parameters and Return Values.
 
 def make_custom_drink(base_drink, milk_type, sugar_packets):
     descripton = f"{base_drink} with {milk_type} milk"
@@ -67,7 +67,7 @@ def make_custom_drink(base_drink, milk_type, sugar_packets):
 
     return descripton
 
-# Generate distinct order strings
+# Generate distinct order strings.
 order1 = make_custom_drink("Latte", "almond", 2)
 order2 = make_custom_drink("Cappuccino", "whole", 0)
 
