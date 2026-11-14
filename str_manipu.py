@@ -25,7 +25,7 @@ print(abbreviation)
 name = "Gabriel"
 print(name[:3])
 
-# 3. String Formatting(Inserting Variables).
+# 3. String Formatting(Inserting Variables)
 
 order_name = "Godson"
 drink = "Latte"
@@ -40,7 +40,7 @@ total = 12.0
 print(f"Thank you, {customer_name}! Total: N{total:.2f}")
 
 
-# 4. Splitting and Joining of Strings.
+# 4. Splitting and Joining of Strings
 
 raw_order_list = "late,espresso,mocha"
 menu_display = ""
