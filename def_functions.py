@@ -57,7 +57,7 @@ final_total = add_tax(10.0)
 print(final_total)
 
 
-# Combining Parameters and Return Values.
+# Combining Parameters and Return Values
 
 def make_custom_drink(base_drink, milk_type, sugar_packets):
     descripton = f"{base_drink} with {milk_type} milk"
@@ -67,7 +67,7 @@ def make_custom_drink(base_drink, milk_type, sugar_packets):
 
     return descripton
 
-# Generate distinct order strings.
+# Generate distinct order strings
 order1 = make_custom_drink("Latte", "almond", 2)
 order2 = make_custom_drink("Cappuccino", "whole", 0)
 
