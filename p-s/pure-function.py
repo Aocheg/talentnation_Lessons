@@ -1,4 +1,4 @@
-# PURE FUNCTIONS
+# PURE FUNCTIONS.
 """A pure function is a function that allows two important rules:
 1. Given the same inputs, it always produces the same output.
 it does not modify or affect anythin outside itself(no side effects)."""
@@ -9,7 +9,7 @@ print(calculate_total(500,3))
 
 # In the code above the result depend entirely on the inputs.
 
-# SIDE EFFECT
+# SIDE EFFECT.
 """A side effect happens when a function changes something outside its local calculation"""
 
 shop_balance = 5000
