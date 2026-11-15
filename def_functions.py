@@ -1,5 +1,5 @@
-# DEFINING FUNCTIONS.
-# 1.Defining function.
+# DEFINING FUNCTIONS
+# 1.Defining function
 
 def brew_coffee():
     print("Grinding espresso beans")
