@@ -1,4 +1,4 @@
-# DEFINING FUNCTIONS.
+# DEFINING FUNCTIONS
 # 1.Defining function
 
 def brew_coffee():
