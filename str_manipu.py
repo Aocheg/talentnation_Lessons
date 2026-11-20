@@ -1,4 +1,4 @@
-# STRINGS MANIPULATIONS.
+# STRINGS MANIPULATIONS
 # 1. Strings Methods (Tools)
 
 order = "  lAtTe   "
