@@ -39,7 +39,7 @@ def order_drink(drink, size):
     print("Dispensing "+size + " " + drink)
 order_drink("espresso", "large")
 
-# 3 Functions with Return Values (Producing Output).
+# 3 Functions with Return Values (Producing Output)
 
 cups_ordered = 3
 price_per_cup = 4.50
