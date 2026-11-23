@@ -1,4 +1,4 @@
-# TIER 2 — FIELD EXERCISE: ALGORITHM THINKING
+# TIER 2 — FIELD EXERCISE: ALGORITHM THINKING.
 
 ## Project: The Digital Translator
 
@@ -16,7 +16,7 @@ The ATM must check each requirement before proceeding with a withdrawal and resp
 
 An algorithm is the plan, while a program is the coded implementation of that plan.
 
-### 3. ATM Withdrawal Algorithm
+### 3. ATM Withdrawal Algorithm.
 
 **START**
 
